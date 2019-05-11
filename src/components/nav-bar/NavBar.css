@@ -1,0 +1,80 @@
+.navBar{
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+    width: 100%;
+}
+
+.navBar-content{
+    align-items: center;
+    display: flex;
+}
+
+.navBar-content a{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 0 10px;
+}
+
+.navBarImage{
+    width: 30px;
+}
+
+.navBarImage img {
+    border-radius: 50%;
+}
+
+.navBar-content .navBarAnchor {
+    border-bottom: 1px solid transparent;
+    color: #8F8F8F;
+    margin: 0 10px;
+}
+
+.navBar-content .navBarAnchor:hover {
+    border-bottom: 1px solid #8F8F8F;
+    line-height: 15px;
+}
+
+/* Start of show apps button */
+.apps-button{
+    background-color: #737373;
+    height: 15px;
+    position: relative;
+    width: 15px;
+}
+
+.apps-button:hover {
+    background-color: black;
+}
+
+.apps-button div {
+    background-color: white;
+    position: absolute;
+}
+
+.apps-button .horizontalbar{
+    height: 2px;
+    width: 100%;
+}
+
+.apps-button .firstHorizontal{
+    top: 25%;
+}
+
+.apps-button .secondHorizontal{
+    top: 63%;
+}
+
+.apps-button .verticalbar{
+    height: 100%;
+    width: 2px;
+}
+
+.apps-button .firstVertical {
+    left: 25%;
+}
+
+.apps-button .secondVertical {
+    left: 63%;
+}
+/* End of show apps button */
